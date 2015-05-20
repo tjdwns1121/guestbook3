@@ -28,7 +28,7 @@
 				<td>[${num.count }]</td>
 				<td>${vo.name }</td>
 				<td>${vo.reg_date }</td>
-				<td><a href="/views/deleteform.jsp?action=deleteform&id=${vo.no}">삭제</a></td>
+				<td><a href="/WEB-INF/views/deleteform.jsp?action=deleteform&id=${vo.no}">삭제</a></td>
 			</tr>
 			<tr>
 				<td colspan=4>${vo.message }</td>
